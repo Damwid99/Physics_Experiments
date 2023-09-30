@@ -107,7 +107,6 @@ class CelestialObject:
         for text_surface_in_info_option in text_surfaces:
             screen.blit(text_surface_in_info_option, ((320 - text_surface_in_info_option.get_width()) // 2, y_pos))
             y_pos += text_surface_in_info_option.get_height()  # Move down to the next line
-# cos
 
 class Dropdown:
     def __init__(self, dropbox_x,dropbox_y,dropbox_length,dropbox_width, if_opnened=False):
